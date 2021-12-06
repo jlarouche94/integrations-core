@@ -24,6 +24,7 @@ The plugin has the following configuration options:
 |sendResultsAsLogs|false|false|By default only metrics are reported to Datadog. To report individual test results as log events, set this field to `true`.|
 |includeSubresults|false|false|A subresult is for instance when an individual HTTP request has to follow redirects. By default subresults are ignored.|
 |samplersRegex|false|.*|An optional regex to filter the samplers to monitor.|
+|customTags|false|`""`|Comma-separated list of tags to add to every metric
 
 ## Data Collected
 
